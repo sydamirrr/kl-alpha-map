@@ -1,0 +1,32 @@
+{
+  "slug": "merdeka-118",
+  "name": "Merdeka 118",
+  "category": "urban",
+  "area": "Kuala Lumpur city centre",
+  "status": "operational",
+  "status_detail": "Operational · completed tower; park and later phases phased in",
+  "coordinates": { "lat": 3.1392, "lng": 101.7017, "precision": "site" },
+  "summary": "The 678.9 m Merdeka 118 tower, the second-tallest building in the world, standing beside the historic Merdeka Stadium. Anchor of a mixed-use district including a park at its base.",
+  "scale": [
+    { "label": "Height", "value": "678.9 m" },
+    { "label": "Rank", "value": "Second-tallest completed building in the world" }
+  ],
+  "why_it_matters": "It reshaped the KL skyline and tied the city's tallest new district to its independence-era heritage. The surrounding precinct is the largest urban redevelopment in the city centre.",
+  "questions_to_follow": [
+    "Do the later phases (offices, hotel, park activation) fill up as planned?",
+    "Does the precinct successfully connect to the Pasar Seni/MRT area?"
+  ],
+  "location_precision": "Site-level. Tower coordinates well established.",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "Merdeka 118",
+      "url": "https://en.wikipedia.org/wiki/Merdeka_118",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2023", "event": "Tower structure completed; phased opening of park and observation deck follows." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

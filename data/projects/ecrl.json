@@ -1,0 +1,31 @@
+{
+  "slug": "ecrl",
+  "name": "East Coast Rail Link (ECRL)",
+  "category": "rail",
+  "area": "Kota Bharu to Port Klang; Gombak terminus, KL",
+  "status": "construction",
+  "status_detail": "Construction · national project; KL terminus at Gombak",
+  "coordinates": { "lat": 3.245, "lng": 101.708, "precision": "area" },
+  "summary": "The East Coast Rail Link connecting the east coast states to the Klang Valley, with its Kuala Lumpur area terminus at Gombak. One of Malaysia's largest infrastructure projects.",
+  "scale": [
+    { "label": "Route", "value": "East coast to Port Klang, KL terminus at Gombak" }
+  ],
+  "why_it_matters": "ECRL rewrites freight and passenger geography between the east coast and Port Klang. Its Gombak terminus is a major anchor for northern KL development.",
+  "questions_to_follow": [
+    "What is the current opening target for passenger and freight services?",
+    "How does the Gombak terminus connect to the existing rail mesh?"
+  ],
+  "location_precision": "Terminus area marker only. Full alignment, cost and timeline pending primary-source review before publishing further figures.",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "East Coast Rail Link",
+      "url": "https://en.wikipedia.org/wiki/East_Coast_Rail_Link",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2026-09-17", "event": "Record created; primary-source review pending for scale figures." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

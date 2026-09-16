@@ -1,0 +1,40 @@
+{
+  "slug": "mrt3-circle-line",
+  "name": "MRT3 Circle Line",
+  "category": "rail",
+  "area": "Kuala Lumpur (loop corridor)",
+  "status": "upcoming",
+  "status_detail": "Land acquisition phase (2026); construction expected from 2027; operations targeted around 2032",
+  "coordinates": { "lat": 3.139, "lng": 101.686, "precision": "corridor" },
+  "summary": "The 51.6 km Circle Line looping around Kuala Lumpur, linking existing MRT, LRT, KTM and monorail lines. Final approval granted; land acquisition targeted for completion by end 2026.",
+  "scale": [
+    { "label": "Length", "value": "51.6 km" },
+    { "label": "Construction start", "value": "expected 2027" },
+    { "label": "Full operations", "value": "around 2032 (target)" }
+  ],
+  "why_it_matters": "The missing loop of the Klang Valley rail network. It turns radial lines into a connected mesh, and its alignment decisions move property markets years before trains run.",
+  "questions_to_follow": [
+    "Does land acquisition complete on schedule by end 2026?",
+    "Does construction begin in 2027 as expected?",
+    "Which interchange stations are prioritised?"
+  ],
+  "location_precision": "Corridor-level entry. Marker placed at the city centre; final alignment to be confirmed from MRT Corp documents.",
+  "sources": [
+    {
+      "publisher": "Malay Mail (via Yahoo News)",
+      "title": "MRT3 gets final approval: Land acquisition for 51.6km Circle Line...",
+      "url": "https://malaysia.news.yahoo.com/mrt3-gets-final-nod-51-110916227.html",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Wikipedia",
+      "title": "Circle Line (Kuala Lumpur)",
+      "url": "https://en.wikipedia.org/wiki/Circle_Line_(Kuala_Lumpur)",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2026", "event": "Final approval granted; land acquisition process begins, targeted for completion by end 2026." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

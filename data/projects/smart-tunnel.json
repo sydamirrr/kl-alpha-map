@@ -1,0 +1,39 @@
+{
+  "slug": "smart-tunnel",
+  "name": "SMART Tunnel",
+  "category": "water",
+  "area": "Kampung Berembang to Sungai Besi, Kuala Lumpur (corridor)",
+  "status": "operational",
+  "status_detail": "Operational · stormwater diversion and motorway tunnel",
+  "coordinates": { "lat": 3.11, "lng": 101.705, "precision": "corridor" },
+  "summary": "The 9.7 km Stormwater Management and Road Tunnel, a dual-purpose motorway and stormwater diversion tunnel protecting central Kuala Lumpur from Klang River flooding. Reported to have diverted floodwaters 55 times and averted about RM4.5 billion in damage.",
+  "scale": [
+    { "label": "Length", "value": "9.7 km" },
+    { "label": "Function", "value": "Stormwater diversion + motorway" },
+    { "label": "Reported record", "value": "55 flood diversions; about RM4.5 billion in averted damage" }
+  ],
+  "why_it_matters": "The template for KL's flood politics. Every monsoon, its activations and any overflow downstream shape the debate about new flood mitigation spending across the valley.",
+  "questions_to_follow": [
+    "How many storm modes are activated in the current monsoon season?",
+    "What stage are the broader Klang River flood mitigation plans at?"
+  ],
+  "location_precision": "Corridor-level marker at tunnel midline.",
+  "sources": [
+    {
+      "publisher": "Department of Irrigation and Drainage Malaysia",
+      "title": "SMART Project",
+      "url": "https://www.water.gov.my/index.php/pages/view/430",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Klang River Festival (recapping operator data)",
+      "title": "SMART tunnel retention pond context",
+      "url": "https://www.facebook.com/klangriverfestival/posts/191953500406280/",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2007", "event": "SMART Tunnel begins operation." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

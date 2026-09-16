@@ -1,0 +1,33 @@
+{
+  "slug": "microsoft-malaysia",
+  "name": "Microsoft cloud & AI investment, Malaysia",
+  "category": "datacentre",
+  "area": "Malaysia (site not publicly confirmed)",
+  "status": "watchlist",
+  "status_detail": "Watchlist · investment announced May 2024; site undisclosed",
+  "coordinates": null,
+  "summary": "Microsoft announced a US$2.2 billion investment in Malaysia to fuel cloud and AI infrastructure. The specific site or sites have not been publicly confirmed, so this record is deliberately unpinned.",
+  "scale": [
+    { "label": "Planned investment", "value": "US$2.2 billion" },
+    { "label": "Scope", "value": "Cloud and AI infrastructure" }
+  ],
+  "why_it_matters": "One of the largest single digital-infrastructure commitments in Malaysia's history. Where it physically lands matters for power, land and jobs in the Klang Valley.",
+  "questions_to_follow": [
+    "Which site or sites are officially confirmed, and in which state?",
+    "What capacity (MW) and timeline are attached to the confirmed site?"
+  ],
+  "location_precision": "No public site announcement found at the time of review. This record is intentionally unpinned rather than guessed.",
+  "sources": [
+    {
+      "publisher": "MIDA (Malaysian Investment Development Authority) news roundup",
+      "title": "Microsoft announced a US$2.2 billion investment to fuel cloud and AI capabilities in Malaysia",
+      "url": "https://www.mida.gov.my/category-news/services-news/",
+      "published": "2024-05",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2024-05", "event": "US$2.2 billion investment announced during a visit to Kuala Lumpur." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

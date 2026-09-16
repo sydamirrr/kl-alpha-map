@@ -1,0 +1,41 @@
+{
+  "slug": "lrt3-shah-alam-line",
+  "name": "LRT3 Shah Alam Line",
+  "category": "rail",
+  "area": "Bandar Utama to Johan Setia, Klang (corridor)",
+  "status": "operational",
+  "status_detail": "Operational · opened 29 June 2026; free rides through 31 July 2026",
+  "coordinates": { "lat": 3.148, "lng": 101.617, "precision": "corridor" },
+  "summary": "The 37.8 km light rail line from Bandar Utama to Johan Setia, Klang, serving Shah Alam and the western Klang Valley. Cost reported at RM21.93 billion.",
+  "scale": [
+    { "label": "Length", "value": "37.8 km" },
+    { "label": "Reported cost", "value": "RM21.93 billion" },
+    { "label": "Opened", "value": "29 June 2026" }
+  ],
+  "why_it_matters": "The first rail spine through Shah Alam. It connects the west of the valley (Klang) to the established Kelana Jaya line, changing commutes and land value along the whole corridor.",
+  "questions_to_follow": [
+    "Do ridership numbers in the first year match projections?",
+    "Does transit-oriented development appear around the new stations?"
+  ],
+  "location_precision": "Corridor-level entry. Marker placed at the Bandar Utama end; station-by-station coordinates pending.",
+  "sources": [
+    {
+      "publisher": "cj.my",
+      "title": "LRT3 Shah Alam line: Everything you need to know before it opens",
+      "url": "https://cj.my/157551/lrt3-shah-alam-line-everything-you-need-to-know-before-it-opens/",
+      "published": "2026-06",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Wikipedia",
+      "title": "Shah Alam Line",
+      "url": "https://en.wikipedia.org/wiki/Shah_Alam_Line",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2026-06-16", "event": "Transport Minister confirms opening at the end of June." },
+    { "date": "2026-06-29", "event": "Line opens; free rides until 31 July 2026." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

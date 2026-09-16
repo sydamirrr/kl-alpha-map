@@ -1,0 +1,33 @@
+{
+  "slug": "trx",
+  "name": "Tun Razak Exchange (TRX)",
+  "category": "urban",
+  "area": "Jalan Tun Razak, Kuala Lumpur",
+  "status": "operational",
+  "status_detail": "Partially operational · financial district; later towers in progress",
+  "coordinates": { "lat": 3.1427, "lng": 101.719, "precision": "area" },
+  "summary": "Malaysia's international financial district on a 70-acre site off Jalan Tun Razak, anchored by the Exchange 106 tower and TRX towers, with its own MRT interchange.",
+  "scale": [
+    { "label": "Site", "value": "About 70 acres" },
+    { "label": "Transit", "value": "Dedicated MRT interchange station" }
+  ],
+  "why_it_matters": "KL's flagship financial district, built around a rail interchange. Its fill-up rate signals whether Kuala Lumpur can anchor a regional financial centre.",
+  "questions_to_follow": [
+    "Which remaining plots break ground next?",
+    "Does the retail and park layer (TRX City Park) drive sustained footfall?"
+  ],
+  "location_precision": "Area-level marker at the district centre.",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "Tun Razak Exchange",
+      "url": "https://en.wikipedia.org/wiki/Tun_Razak_Exchange",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2017", "event": "TRX MRT interchange station opens ahead of the district." },
+    { "date": "2019", "event": "Exchange 106 tower completes." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

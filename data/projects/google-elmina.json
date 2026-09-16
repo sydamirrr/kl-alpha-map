@@ -1,0 +1,49 @@
+{
+  "slug": "google-elmina",
+  "name": "Google data centre & cloud region, Elmina",
+  "category": "datacentre",
+  "area": "Shah Alam, Selangor",
+  "status": "construction",
+  "status_detail": "Construction · reported 30 May 2024 (announcement); ground broken October 2024",
+  "coordinates": { "lat": 3.103, "lng": 101.528, "precision": "area" },
+  "summary": "Google's first data centre in Malaysia, together with a Google Cloud region, at Sime Darby Property's Elmina Business Park in Greater Kuala Lumpur. Announced as part of a US$2 billion investment.",
+  "scale": [
+    { "label": "Planned investment", "value": "US$2 billion" },
+    { "label": "Scope", "value": "First Google data centre in Malaysia + Google Cloud region + AI literacy programs" }
+  ],
+  "why_it_matters": "The anchor project of the Klang Valley's AI-infrastructure wave. A hyperscale campus in Shah Alam, not Johor, signals Selangor's push to keep data centre investment inside Greater KL despite land and power constraints.",
+  "questions_to_follow": [
+    "Does the campus reach operational status on the announced timeline?",
+    "Does the cloud region go live in the same phase as the data centre?",
+    "Do follow-on expansions land at Elmina or spill to Banting, Sepang, Sungai Buloh or Puchong?"
+  ],
+  "location_precision": "Elmina Business Park, Shah Alam (Guthrie Corridor). Coordinates are area-level; exact building footprint unverified.",
+  "sources": [
+    {
+      "publisher": "Google (press release)",
+      "title": "Advancing Malaysia Together: Google Announces US$2 Billion Investment in Malaysia, Including First Google Data Center and Google Cloud Region",
+      "url": "https://www.googlecloudpresscorner.com/2024-05-30-Advancing-Malaysia-Together-Google-Announces-US-2-Billion-Investment-in-Malaysia,-Including-First-Google-Data-Center-and-Google-Cloud-Region",
+      "published": "2024-05-30",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Sime Darby Property",
+      "title": "Google's Hyperscale Data Centre at Elmina Business Park Breaks Ground",
+      "url": "https://www.simedarbyproperty.com/press-releases/googles-hyperscale-data-centre-elmina-business-park-breaks-ground",
+      "published": "2024-10",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Google (blog)",
+      "title": "Google Breaks Ground on US$2 Billion Malaysia Data Center and Cloud Region",
+      "url": "https://blog.google/intl/ms-my/company-news/inside-google/2024_10_google-breaks-ground-on-us2-billion/",
+      "published": "2024-10",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2024-05-30", "event": "US$2 billion investment announced; Elmina Business Park named as the site." },
+    { "date": "2024-10", "event": "Groundbreaking ceremony officiated by the Prime Minister; Sime Darby Property is Malaysia's first developer to execute a built-to-suit lease for a data centre." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "mrt-putrajaya-line",
+  "name": "MRT Putrajaya Line (MRT2)",
+  "category": "rail",
+  "area": "Kwasa Damansara to Putrajaya Sentral (corridor)",
+  "status": "operational",
+  "status_detail": "Operational · full line opened 16 March 2023",
+  "coordinates": { "lat": 3.1077, "lng": 101.6136, "precision": "corridor" },
+  "summary": "The 57.7 km second MRT line from Kwasa Damansara to Putrajaya Sentral, with 36 stations (27 elevated, 9 underground) and 10 interchange stations. Total construction cost reported at RM30.53 billion.",
+  "scale": [
+    { "label": "Length", "value": "57.7 km (44.2 km elevated, 13.5 km underground)" },
+    { "label": "Stations", "value": "36 operational (10 interchanges)" },
+    { "label": "Reported cost", "value": "RM30.53 billion" },
+    { "label": "Full opening", "value": "16 March 2023" }
+  ],
+  "why_it_matters": "The second spine of the MRT network, connecting the city centre to the south of the valley and the administrative capital. It is the benchmark against which MRT3 costs and timelines are judged.",
+  "questions_to_follow": [
+    "How do ridership numbers develop after the first years of full service?",
+    "Does transit-oriented development follow around the southern stations?"
+  ],
+  "location_precision": "Corridor-level marker near the line midpoint. Station-level coordinates pending.",
+  "sources": [
+    {
+      "publisher": "MRT Corp",
+      "title": "Putrajaya Line project page",
+      "url": "https://www.mymrt.com.my/projects/putrajaya-line/",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Wikipedia",
+      "title": "Putrajaya Line",
+      "url": "https://en.wikipedia.org/wiki/Putrajaya_Line",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Rail Journal",
+      "title": "Services begin on Kuala Lumpur's MRT Putrajaya Line Phase 2",
+      "url": "https://www.railjournal.com/passenger/metros/services-begin-on-kuala-lumpurs-mrt-putrajaya-line-phase-2/",
+      "published": "2023-03",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2022-06-16", "event": "Phase 1 (Kwasa Damansara to Kampung Batu) opens." },
+    { "date": "2023-03-16", "event": "Full line opens from Kwasa Damansara to Putrajaya Sentral." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

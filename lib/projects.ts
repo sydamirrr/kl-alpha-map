@@ -104,6 +104,13 @@ import ecrl from "@/data/projects/ecrl.json";
 import merdeka118 from "@/data/projects/merdeka-118.json";
 import trx from "@/data/projects/trx.json";
 import smartTunnel from "@/data/projects/smart-tunnel.json";
+import mrtKajangLine from "@/data/projects/mrt-kajang-line.json";
+import mrtPutrajayaLine from "@/data/projects/mrt-putrajaya-line.json";
+import kvdt2 from "@/data/projects/kvdt2.json";
+import riverOfLife from "@/data/projects/river-of-life.json";
+import mrcbBukitJalilDc from "@/data/projects/mrcb-bukit-jalil-dc.json";
+import bandarMalaysia from "@/data/projects/bandar-malaysia.json";
+import klLocalPlan2040 from "@/data/projects/kl-local-plan-2040.json";
 
 export const projects: Project[] = [
   googleElmina,
@@ -114,6 +121,13 @@ export const projects: Project[] = [
   merdeka118,
   trx,
   smartTunnel,
+  mrtKajangLine,
+  mrtPutrajayaLine,
+  kvdt2,
+  riverOfLife,
+  mrcbBukitJalilDc,
+  bandarMalaysia,
+  klLocalPlan2040,
 ] as Project[];
 
 export function getProject(slug: string): Project | undefined {

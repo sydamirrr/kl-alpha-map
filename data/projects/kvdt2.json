@@ -1,0 +1,41 @@
+{
+  "slug": "kvdt2",
+  "name": "Klang Valley Double Track Phase 2 (KVDT2)",
+  "category": "rail",
+  "area": "Klang Valley KTM network (corridor)",
+  "status": "construction",
+  "status_detail": "Construction · rehabilitation in progress; full completion targeted end-2027, two years ahead of original schedule",
+  "coordinates": { "lat": 3.0535, "lng": 101.6831, "precision": "corridor" },
+  "summary": "The RM4.475 billion rehabilitation and upgrade of 265 km of KTM track around the Klang Valley: new track, sleepers, signalling and electrification upgrades on the existing double-track network.",
+  "scale": [
+    { "label": "Length", "value": "265 km (network)" },
+    { "label": "Cost", "value": "RM4.475 billion" },
+    { "label": "Full completion", "value": "end-2027 (target, two years early)" }
+  ],
+  "why_it_matters": "KVDT2 is the quiet workhorse project of valley rail: faster, more reliable KTM services depend on it, and its early completion claim is one of the biggest schedule stories in local transport.",
+  "questions_to_follow": [
+    "Does the end-2027 completion target hold?",
+    "Which segments reopen upgraded, and in what order?"
+  ],
+  "location_precision": "Corridor-level entry across the KTM network. Marker placed at KL Sentral.",
+  "sources": [
+    {
+      "publisher": "The Star",
+      "title": "KVDT2 upgrade expected to be completed two years ahead of schedule, says KTMB",
+      "url": "https://www.thestar.com.my/news/nation/2026/05/20/kvdt2-upgrade-expected-to-be-completed-two-years-ahead-of-schedule-says-ktmb",
+      "published": "2026-05-20",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "New Straits Times",
+      "title": "KVDT2 rehabilitation project to be completed by end-2027",
+      "url": "https://www.nst.com.my/news/nation/2026/05/1444131/kvdt2-rehabilitation-project-be-completed-end-2027",
+      "published": "2026-05",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2026-05-20", "event": "KTMB announces expected completion two years ahead of original schedule." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

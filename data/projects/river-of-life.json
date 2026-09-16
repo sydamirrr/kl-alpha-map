@@ -1,0 +1,44 @@
+{
+  "slug": "river-of-life",
+  "name": "River of Life",
+  "category": "water",
+  "area": "Klang and Gombak River confluence, Kuala Lumpur",
+  "status": "construction",
+  "status_detail": "Construction · river cleaning and beautification phases in progress; progress reported at 81% with completion deadline struggles",
+  "coordinates": { "lat": 3.1472, "lng": 101.6952, "precision": "site" },
+  "summary": "The River of Life project aims to transform the Klang and Gombak river basin through the city centre: river cleaning, beautification of a 10.7 km corridor, and commercial redevelopment around the confluence where Kuala Lumpur was founded.",
+  "scale": [
+    { "label": "Corridor", "value": "10.7 km of river in central KL" },
+    { "label": "Reported spend", "value": "About RM4.5 billion / US$1.2 billion (of a reported RM4.4bn programme)" }
+  ],
+  "why_it_matters": "KL's flagship urban river restoration, tied to the founding site of the city. Its delays and cost overruns are the standing counterpoint to new flood-mitigation promises.",
+  "questions_to_follow": [
+    "Does the project reach final completion, and when?",
+    "Do the commercial parcels around the confluence actually get developed?"
+  ],
+  "location_precision": "Site-level marker at the Klang-Gombak confluence (Masjid Jamek area).",
+  "sources": [
+    {
+      "publisher": "River of Life (JWP, Government of Malaysia)",
+      "title": "River of Life official project site",
+      "url": "https://rolkl.jwp.gov.my/",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "The Star",
+      "title": "River of Life project reaches 81% progress, land value appreciated by 87% (video report)",
+      "url": "https://www.facebook.com/TheStarOnline/videos/river-of-life-project-reaches-81-progress-land-value-appreciated-by-87-says-dr-z/1013393497092160/",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "The Straits Times",
+      "title": "Malaysia's ambitious River of Life project struggles to meet deadline despite $1.2 billion spent",
+      "url": "https://www.straitstimes.com/asia/se-asia/malaysia-s-ambitious-river-of-life-project-struggles-to-meet-deadline-despite-spending-12-billion",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2012", "event": "River of Life project launched as an EPP under the Economic Transformation Programme." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

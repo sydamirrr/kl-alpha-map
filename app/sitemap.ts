@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 import { projects } from "@/lib/projects";
 
-const BASE = "https://klalphamap.com"; // TODO: replace with the real domain once bought
+// Update this when the custom domain is bought (see issue #14).
+const BASE = "https://kl-alpha-map.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

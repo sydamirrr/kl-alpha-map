@@ -1,0 +1,49 @@
+{
+  "slug": "bandar-malaysia",
+  "name": "Bandar Malaysia",
+  "category": "urban",
+  "area": "Sungai Besi, Kuala Lumpur",
+  "status": "upcoming",
+  "status_detail": "Upcoming · Finance Ministry says redevelopment begins end-2026",
+  "coordinates": { "lat": 3.1045, "lng": 101.7053, "precision": "area" },
+  "summary": "The redevelopment of a 486-acre former airbase at Sungai Besi into an integrated smart, transit-oriented city. Master developer is IWH-CREC Sdn Bhd (IWH 60%). The master plan (SOM) targets tourism, trade, culture and innovation uses around a proposed major rail interchange.",
+  "scale": [
+    { "label": "Site", "value": "486 acres (about 197 ha)" },
+    { "label": "Master developer", "value": "IWH-CREC Sdn Bhd (IWH 60%)" },
+    { "label": "Start", "value": "end-2026 (target, per Finance Ministry)" }
+  ],
+  "why_it_matters": "KL's largest single-piece city development, a decade of delays and resets. The draft KL Local Plan 2040 leans on it: the proposed southward CBD expansion centres on Bandar Malaysia.",
+  "questions_to_follow": [
+    "Does construction actually begin at end-2026 as stated?",
+    "Which rail links (MRT3 is planned nearby) anchor the interchange?",
+    "Do the earlier 1MDB-era obligations and ownership disputes stay resolved?"
+  ],
+  "location_precision": "Area-level marker on the former airbase site. Precise phase boundaries not yet published.",
+  "sources": [
+    {
+      "publisher": "The Star",
+      "title": "Bandar Malaysia project to begin end-2026, says ministry",
+      "url": "https://www.thestar.com.my/news/nation/2025/11/13/bandar-malaysia-project-to-begin-end-2026-says-ministry",
+      "published": "2025-11-13",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "SOM (Skidmore, Owings & Merrill)",
+      "title": "Bandar Malaysia Master Plan",
+      "url": "https://www.som.com/projects/bandar-malaysia-master-plan/",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Malay Mail",
+      "title": "Bandar Malaysia redevelopment to begin end-2026 with smart city, transit-oriented focus",
+      "url": "https://www.facebook.com/malaymaildotcom/posts/1269814535182898/",
+      "published": "2025-11",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2015", "event": "Site designated for redevelopment under 1MDB; later sold and restructured amid disputes." },
+    { "date": "2025-11", "event": "Finance Ministry announces redevelopment to begin end-2026." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

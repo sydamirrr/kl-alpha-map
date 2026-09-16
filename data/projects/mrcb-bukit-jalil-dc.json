@@ -1,0 +1,43 @@
+{
+  "slug": "mrcb-bukit-jalil-dc",
+  "name": "MRCB Bukit Jalil data centre",
+  "category": "datacentre",
+  "area": "Bukit Jalil, Kuala Lumpur",
+  "status": "upcoming",
+  "status_detail": "Upcoming · announced June 2026; definitive agreements targeted Q3 2026",
+  "coordinates": { "lat": 3.0522, "lng": 101.6922, "precision": "area" },
+  "summary": "MRCB's entry into the data centre business: a six-storey, AI-ready data centre on a 37,320 sq m leasehold site at Bukit Jalil Sentral, with an estimated gross development cost of RM2.1 billion.",
+  "scale": [
+    { "label": "Gross development cost", "value": "RM2.1 billion" },
+    { "label": "Planned capacity", "value": "65 MW" },
+    { "label": "Site", "value": "37,320 sq m leasehold, Bukit Jalil Sentral" },
+    { "label": "Target completion", "value": "September 2026 (announced)" }
+  ],
+  "why_it_matters": "A named, in-KL AI-ready campus from a local developer. Bukit Jalil sits inside the city, proving the data centre boom is not only a Johor or far-suburb story.",
+  "questions_to_follow": [
+    "Are the definitive agreements executed on the Q3 2026 target?",
+    "Does the 65 MW capacity come online in phases, and when is the first phase?",
+    "Does the delivery timeline of 13 months from agreement hold?"
+  ],
+  "location_precision": "Area-level marker on the Bukit Jalil Sentral site. Exact building footprint unverified.",
+  "sources": [
+    {
+      "publisher": "Business Today",
+      "title": "MRCB To Develop RM2.1 Billion Data Centre In Bukit Jalil",
+      "url": "https://www.businesstoday.com.my/2026/06/16/mrcb-to-develop-rm2-1-billion-data-centre-in-bukit-jalil/",
+      "published": "2026-06-16",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "New Straits Times",
+      "title": "MRCB diversifies into AI digital infra with RM2.1bil data centre venture in Bukit Jalil",
+      "url": "https://www.nst.com.my/business/corporate/2026/06/1464950/mrcb-diversifies-ai-digital-infra-rm21bil-data-centre-venture",
+      "published": "2026-06",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2026-06-16", "event": "Project announced; estimated gross development cost RM2.1 billion, target completion September 2026." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

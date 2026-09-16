@@ -1,0 +1,40 @@
+{
+  "slug": "mrt-kajang-line",
+  "name": "MRT Kajang Line (MRT1)",
+  "category": "rail",
+  "area": "Kwasa Damansara to Kajang (corridor)",
+  "status": "operational",
+  "status_detail": "Operational · full line opened 17 July 2017",
+  "coordinates": { "lat": 3.1327, "lng": 101.7143, "precision": "corridor" },
+  "summary": "The 51 km first MRT line from Kwasa Damansara to Kajang, serving 31 stations (7 underground). Reported construction cost about RM21 billion. Opened in phases 2016-2017.",
+  "scale": [
+    { "label": "Length", "value": "51 km" },
+    { "label": "Stations", "value": "31 (7 underground)" },
+    { "label": "Reported cost", "value": "About RM21 billion" },
+    { "label": "Full opening", "value": "17 July 2017" }
+  ],
+  "why_it_matters": "The line that proved the MRT system works. Every later rail conversation in the valley references its cost, ridership and land-value effects.",
+  "questions_to_follow": [
+    "How does ridership evolve on the original line as the network fills in around it?"
+  ],
+  "location_precision": "Corridor-level marker near the city centre section. Station-level coordinates pending.",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "Kajang Line",
+      "url": "https://en.wikipedia.org/wiki/Kajang_Line",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "tunnel-online.info",
+      "title": "Kuala Lumpur MRT Line 1 started full operation",
+      "url": "https://www.tunnel-online.info/en/artikel/tunnel_Kuala_Lumpur_MRT_Line_1_started_full_Operation-3020687.html",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2016-12-16", "event": "Phase 1 opens from Sungai Buloh to Semantan." },
+    { "date": "2017-07-17", "event": "Full line opens to Kajang." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

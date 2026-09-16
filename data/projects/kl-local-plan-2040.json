@@ -1,0 +1,39 @@
+{
+  "slug": "kl-local-plan-2040",
+  "name": "KL Local Plan 2040 (RKL2040)",
+  "category": "urban",
+  "area": "Federal Territory of Kuala Lumpur",
+  "status": "upcoming",
+  "status_detail": "Upcoming · gazetted planning framework; implementation phase",
+  "coordinates": { "lat": 3.139, "lng": 101.6869, "precision": "area" },
+  "summary": "The Kuala Lumpur Local Plan 2040 (Pelan Tempatan Kuala Lumpur 2040), the statutory land-use plan guiding the city to 2040. Published by DBKL after public exhibition and review; the accompanying Structure Plan (PSKL2040) proposes a southward expansion of the CBD of over 50 percent, centred on the corridor from KLCC toward Bandar Malaysia.",
+  "scale": [
+    { "label": "Horizon", "value": "2040" },
+    { "label": "Key proposal", "value": "CBD southward expansion >50% (KLCC toward Bandar Malaysia)" }
+  ],
+  "why_it_matters": "The single document that decides what can be built where in KL for the next 15 years. Its CBD-south thesis links almost every big project on this map: Bandar Malaysia, Merdeka 118, the rail interchanges.",
+  "questions_to_follow": [
+    "Which parcels get rezoning objections resolved, and where do height limits land?",
+    "Does the southward CBD expansion survive changes in city administration?"
+  ],
+  "location_precision": "City-wide policy record. Marker at city centre for map anchoring only.",
+  "sources": [
+    {
+      "publisher": "DBKL (Kuala Lumpur City Hall)",
+      "title": "Pelan Pembangunan Kuala Lumpur 2040 (PPKL2040) portal",
+      "url": "https://ppkl.dbkl.gov.my/en/",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Lexology (legal analysis)",
+      "title": "KL Structure Plan 2040 and KL Local Plan 2040",
+      "url": "https://www.lexology.com/library/detail.aspx?g=064f00c7-5224-4b5f-a755-33e88e9a5f38",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2020s", "event": "Draft exhibited for public review; objections and revisions follow." },
+    { "date": "2025", "event": "Plan gazetted; court challenges to specific rezonings reported." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

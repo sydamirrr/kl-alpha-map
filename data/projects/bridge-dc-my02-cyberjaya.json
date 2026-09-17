@@ -1,0 +1,40 @@
+{
+  "slug": "bridge-dc-my02-cyberjaya",
+  "name": "Bridge Data Centres MY02, Cyberjaya",
+  "category": "datacentre",
+  "area": "Cyberjaya, Selangor",
+  "status": "construction",
+  "status_detail": "Construction · land acquired February 2024; 87 MW across three phases",
+  "coordinates": { "lat": 2.926, "lng": 101.654, "precision": "area" },
+  "summary": "Bridge Data Centres (a ChinData/Bain Capital subsidiary) is building its third Cyberjaya facility, MY02, in partnership with Cyberview Sdn Bhd. The project will deliver 87 MW of capacity across three phases, with the first two phases involving a three-storey data centre.",
+  "scale": [
+    { "label": "Planned capacity", "value": "87 MW across three phases" },
+    { "label": "Scope", "value": "Third Bridge DC site in Cyberjaya, largest among their three developments" }
+  ],
+  "why_it_matters": "Bridge's 87 MW MY02 expansion underscores the scale of demand pulling international operators into the Cyberjaya corridor. The facility is among the largest single data-centre projects currently under development in the Klang Valley.",
+  "questions_to_follow": [
+    "What is the timeline for phase-one completion?",
+    "Which hyperscaler or enterprise tenants will anchor the facility?"
+  ],
+  "location_precision": "Cyberjaya, in partnership with Cyberview. Coordinates are area-level for the Cyberjaya data centre cluster; exact plot not publicly mapped.",
+  "sources": [
+    {
+      "publisher": "Data Center Dynamics",
+      "title": "Bridge DC expands in Malaysia with data center in Cyberjaya",
+      "url": "https://www.datacenterdynamics.com/en/news/bridge-dc-expands-in-malaysia-with-data-center-in-cyberjaya/",
+      "published": "2024-02-29",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "datacenters.com",
+      "title": "Bridge Data Centres: MY02: Cyberjaya, Malaysia Data Center",
+      "url": "https://www.datacenters.com/bridge-data-centres-my02-cyberjaya-malaysia",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2018", "event": "Bridge acquires two existing data centres in Cyberjaya, renamed MY01 and MY02, totalling approx. 1 million sq ft and 20 MW." },
+    { "date": "2024-02", "event": "Bridge announces acquisition of new land in Cyberjaya for a third facility (new MY02), 87 MW across three phases, in partnership with Cyberview." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

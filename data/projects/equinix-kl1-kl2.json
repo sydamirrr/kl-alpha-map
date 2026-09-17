@@ -1,0 +1,44 @@
+{
+  "slug": "equinix-kl1-kl2",
+  "name": "Equinix KL1 & KL2 data centres, Cyberjaya",
+  "category": "datacentre",
+  "area": "Cyberjaya, Selangor",
+  "status": "construction",
+  "status_detail": "KL1 operational (May 2024, Phase 2 completed May 2025); KL2 announced May 2026, in planning",
+  "coordinates": { "lat": 2.928, "lng": 101.653, "precision": "area" },
+  "summary": "Equinix's first Kuala Lumpur data centre (KL1) is an IBX facility in Cyberjaya that launched in May 2024 with a total investment of approximately US$100 million and 900-cabinet capacity after Phase 2 completion in May 2025. A second purpose-built facility, KL2, was announced in May 2026 with a US$190 million investment delivering 2,200+ cabinets, located less than 1 km from KL1.",
+  "scale": [
+    { "label": "KL1 investment", "value": "~US$100 million, 900 cabinets" },
+    { "label": "KL2 investment", "value": "US$190 million, 2,200+ cabinets" },
+    { "label": "Scope", "value": "Two interconnected IBX facilities in Cyberjaya; Equinix's 3rd and 4th Malaysia DCs" }
+  ],
+  "why_it_matters": "Equinix brings its global interconnection platform to the Klang Valley, positioning Cyberjaya as a neutral meeting point for network providers, cloud platforms and enterprises. KL2's rapid follow-on signals strong commercial traction among businesses building distributed architectures spanning KL, Johor and Singapore.",
+  "questions_to_follow": [
+    "When does KL2 construction begin and what is the target operational date?",
+    "How many cloud on-ramps and network providers are live at KL1?"
+  ],
+  "location_precision": "KL1 is at Jalan Cyber Point 4, Cyber 8, Cyberjaya. KL2 is on a 14,300 sqm plot acquired in July 2024, less than 1 km from KL1. Coordinates are area-level for the Cyber 8 precinct.",
+  "sources": [
+    {
+      "publisher": "Equinix (newsroom press release)",
+      "title": "Equinix to Develop Purpose-Built IBX Data Center in Kuala Lumpur to Support Malaysia's AI and Cloud Growth",
+      "url": "https://newsroom.equinix.com/2026-05-11-Equinix-to-Develop-Purpose-Built-IBX-Data-Center-in-Kuala-Lumpur-to-Support-Malaysias-AI-and-Cloud-Growth",
+      "published": "2026-05-12",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "The Edge Malaysia",
+      "title": "US firm Equinix completes second phase of data centre in Cyberjaya",
+      "url": "https://theedgemalaysia.com/node/754356",
+      "published": "2025-05-07",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2024-05", "event": "Equinix KL1 launches in Cyberjaya alongside JH1 in Johor, marking entry into Malaysia." },
+    { "date": "2024-07", "event": "Equinix acquires 14,300 sqm land in Cyberjaya for RM23 million for the planned KL2 facility." },
+    { "date": "2025-05", "event": "KL1 Phase 2 completed, bringing total capacity to 900 cabinets and 2.4 MVA power load." },
+    { "date": "2026-05", "event": "Equinix announces KL2 with a US$190 million investment for 2,200+ cabinets." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

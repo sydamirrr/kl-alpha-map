@@ -1,0 +1,42 @@
+{
+  "slug": "lrt-kelana-jaya-extension",
+  "name": "LRT Kelana Jaya Line extension to Putra Heights",
+  "category": "rail",
+  "area": "Kelana Jaya – Subang Jaya – Putra Heights, Selangor",
+  "status": "operational",
+  "status_detail": "Operational · opened 30 June 2016",
+  "coordinates": { "lat": 3.058, "lng": 101.596, "precision": "corridor" },
+  "summary": "A 17.4 km elevated extension of the LRT Kelana Jaya Line from Kelana Jaya station to Putra Heights, adding 13 new stations through Subang Jaya and USJ. Part of the RM10 billion LRT Extension Project, the extension created an interchange with the Sri Petaling Line at Putra Heights, forming the Klang Valley's first south-side cross-line transfer.",
+  "scale": [
+    { "label": "Length", "value": "17.4 km" },
+    { "label": "Stations", "value": "13 new stations" },
+    { "label": "Total line", "value": "Gombak to Putra Heights, 37 stations" }
+  ],
+  "why_it_matters": "The extension connected Subang Jaya, USJ, and Ara Damansara to the automated Kelana Jaya Line, serving some of the densest suburban areas in the Klang Valley. The interchange at Putra Heights enabled the first orbital rail connectivity south of KL, complementing the radial MRT lines.",
+  "questions_to_follow": [
+    "Are there plans for further extensions beyond Putra Heights?",
+    "Has park-and-ride capacity at the seven equipped stations kept up with demand?"
+  ],
+  "location_precision": "Corridor from Kelana Jaya through Subang Jaya/USJ to Putra Heights. Coordinates placed mid-corridor near SS15/Subang Jaya for map visibility.",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "Kelana Jaya line extension",
+      "url": "https://en.wikipedia.org/wiki/Kelana_Jaya_line_extension",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Asia Infra Solutions",
+      "title": "Light Rapid Transit (LRT) Kelana Jaya Line Extension",
+      "url": "https://www.asiainfrasolutions.com/ais-project/lrt-kelana-jaya-line-extension/",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2006", "event": "Government proposes Kelana Jaya and Sri Petaling line extensions converging at Putra Heights." },
+    { "date": "2009-09", "event": "Prasarana begins public display of proposed alignment; 13 new stations over 17 km planned." },
+    { "date": "2010-11", "event": "Phase 1 contract worth RM1.7 billion awarded to Trans Resource Corp." },
+    { "date": "2016-06-30", "event": "Extension opens to Putra Heights, simultaneously with the final section of the Sri Petaling extension." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

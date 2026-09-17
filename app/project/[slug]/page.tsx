@@ -32,6 +32,30 @@ export default async function ProjectPage({
 
   const cat = CATEGORIES[project.category];
 
+  const issueTitle = `Update: ${project.name}`;
+  const issueBody = [
+    "### Project",
+    "",
+    `- **Slug**: \`${project.slug}\``,
+    `- **Current Status**: ${project.status}`,
+    "",
+    "### What changed or needs correction?",
+    "",
+    "",
+    "### Source / Evidence URL",
+    "",
+    "",
+    "### Date of source / event",
+    "",
+    "",
+    "### Additional context (optional)",
+    "",
+  ].join("\n");
+
+  const suggestUpdateUrl = `https://github.com/sydamirrr/kl-alpha-map/issues/new?template=suggest-update.md&title=${encodeURIComponent(
+    issueTitle
+  )}&body=${encodeURIComponent(issueBody)}`;
+
   const pageUrl = `${SITE_URL}/project/${project.slug}`;
   const projectJsonLd =
     project.coordinates !== null
@@ -233,14 +257,24 @@ export default async function ProjectPage({
                 {s.published && ` · published ${s.published}`}
                 {` · accessed ${s.accessed}`}
               </div>
-                </li>
+            </li>
           ))}
         </ul>
       </section>
 
-      <footer className="mt-8 border-t border-slate-200 pt-4 text-xs text-slate-500">
-        Edition reviewed {project.edition_reviewed}. Evidence dates do not
-        imply a live site inspection.
+      <footer className="mt-8 border-t border-slate-200 pt-4 text-xs text-slate-500 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+        <span>
+          Edition reviewed {project.edition_reviewed}. Evidence dates do not
+          imply a live site inspection.
+        </span>
+        <a
+          href={suggestUpdateUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-slate-500 hover:text-slate-800 hover:underline shrink-0"
+        >
+          Suggest an update ↗
+        </a>
       </footer>
     </main>
   );

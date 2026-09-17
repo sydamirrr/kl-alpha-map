@@ -1,0 +1,63 @@
+{
+  "slug": "kapar-power-station",
+  "name": "Sultan Salahuddin Abdul Aziz Shah Power Station (Kapar)",
+  "category": "energy",
+  "area": "Kapar, Klang District, Selangor",
+  "status": "operational",
+  "status_detail": "Operational · GF1 commissioned 1985-1986, GF3 taken over in 2000",
+  "coordinates": {
+    "lat": 3.117,
+    "lng": 101.322,
+    "precision": "site"
+  },
+  "summary": "Malaysia's largest power station, on the coast at Kapar near Klang. Operated by Kapar Energy Ventures, a joint venture of TNB and Malakoff, it burns coal and gas across four generating facilities and anchors the Klang Valley's electricity supply.",
+  "scale": [
+    {
+      "label": "Total installed capacity",
+      "value": "2,420 MW across GF1-GF4 (operator listed)"
+    },
+    {
+      "label": "Largest units",
+      "value": "2 x 500 MW coal/gas thermal units (GF3)"
+    },
+    {
+      "label": "Fuels",
+      "value": "Coal and natural gas, with oil firing capability"
+    }
+  ],
+  "why_it_matters": "The biggest single generator on the Klang Valley grid and a defining landmark of the Klang coast. Its coal-fired units sit at the centre of Malaysia's energy-transition debate just as data centre demand pushes power consumption up.",
+  "questions_to_follow": [
+    "What is the retirement or repowering timeline for the older coal-fired GF1-GF3 units?",
+    "How does the plant's output mix shift as Selangor's data centre load grows?"
+  ],
+  "location_precision": "Kapar Energy Ventures station, Kapar. Coordinates are the plant site as published on the station's Wikipedia page.",
+  "sources": [
+    {
+      "publisher": "Kapar Energy Ventures",
+      "title": "Generating Facility",
+      "url": "https://kaparenergy.com.my/generating-facility/",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Wikipedia",
+      "title": "Sultan Salahuddin Abdul Aziz Power Station",
+      "url": "https://en.wikipedia.org/wiki/Sultan_Salahuddin_Abdul_Aziz_Power_Station",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "1985",
+      "event": "First GF1 units commissioned; GF2 followed in 1988-1989 and GF4 gas turbines later completed the four-phase layout."
+    },
+    {
+      "date": "1987-03",
+      "event": "Station officially opened by the Sultan of Selangor and named after Sultan Salahuddin Abdul Aziz Shah."
+    },
+    {
+      "date": "2000",
+      "event": "GF3 (2 x 500 MW) taken over, keeping it the largest power station in Malaysia."
+    }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

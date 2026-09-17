@@ -1,0 +1,72 @@
+{
+  "slug": "westports-2-expansion",
+  "name": "Westports 2 container terminal expansion",
+  "category": "ports",
+  "area": "Pulau Indah, Port Klang, Selangor",
+  "status": "construction",
+  "status_detail": "Construction · groundbreaking 27 September 2024; CT10 targeted for operations in 2028",
+  "coordinates": {
+    "lat": 2.949834,
+    "lng": 101.307635,
+    "precision": "area"
+  },
+  "summary": "Westports' RM12.6 billion build-out of container terminals CT10 to CT17 on Pulau Indah, adding 4.8 km of quay and set to nearly double the terminal's yard capacity from 14 million to 28 million TEU.",
+  "scale": [
+    {
+      "label": "Projected cost",
+      "value": "RM12.6 billion (about US$2.84 billion)"
+    },
+    {
+      "label": "New quay",
+      "value": "8 terminals (CT10-CT17), 4.8 km of additional quay"
+    },
+    {
+      "label": "Capacity",
+      "value": "From 14 million to 28 million TEU yard capacity"
+    },
+    {
+      "label": "First capex",
+      "value": "RM2.2-2.4 billion for CT10 and CT11"
+    }
+  ],
+  "why_it_matters": "The largest single logistics investment in the Klang Valley's history and the reason Port Klang keeps its slot among the world's top container ports. It also sets Selangor up to catch spillover from Singapore and the FDI wave in nearby industrial corridors.",
+  "questions_to_follow": [
+    "Does CT10 actually start operations in 2028?",
+    "When is the land transfer for CT14-CT17 completed, and with it the concession extension to 2082?",
+    "How much of the automation and electrification plan survives contact with the terminal's long, narrow RTG layout?"
+  ],
+  "location_precision": "Westports terminal on Pulau Indah. Coordinates are port-area level; the CT10-CT17 strip extends from the existing quays.",
+  "sources": [
+    {
+      "publisher": "WorldCargo News",
+      "title": "Westports launches Westports 2 terminal expansion",
+      "url": "https://www.worldcargonews.com/news/2024/09/westports-launches-westports-2-terminal-expansion/",
+      "published": "2024-09-27",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "US International Trade Administration",
+      "title": "Malaysia Seaport Capacity Expansion",
+      "url": "https://www.trade.gov/market-intelligence/malaysia-seaport-capacity-expansion",
+      "published": "2024-08-27",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Westports Holdings",
+      "title": "About Port",
+      "url": "https://www.westportsholdings.com/our-port/",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "2023",
+      "event": "Third Supplemental Privatisation Agreement signed with the Government and Port Klang Authority for CT10-CT17; concession extended to 2070 for CT10-13."
+    },
+    {
+      "date": "2024-09-27",
+      "event": "Groundbreaking led by Prime Minister Anwar Ibrahim; two-stage build (CT10-13, then CT14-17) with CT10 targeted for 2028 and CT11 for end-2029."
+    }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

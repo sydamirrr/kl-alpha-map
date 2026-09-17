@@ -1,4 +1,11 @@
-export type CategoryKey = "datacentre" | "rail" | "urban" | "water";
+export type CategoryKey =
+  | "datacentre"
+  | "rail"
+  | "urban"
+  | "water"
+  | "energy"
+  | "ports"
+  | "education";
 
 export type ProjectStatus =
   | "operational"
@@ -72,6 +79,21 @@ export const CATEGORIES: Record<
     color: "#0d9488",
     description: "Flood mitigation and water infrastructure",
   },
+  energy: {
+    label: "Energy & grid",
+    color: "#ca8a04",
+    description: "Power generation, solar and the grid",
+  },
+  ports: {
+    label: "Ports & logistics",
+    color: "#2563eb",
+    description: "Ports, airports and logistics corridors",
+  },
+  education: {
+    label: "Education & talent",
+    color: "#db2777",
+    description: "Universities, campuses and talent",
+  },
 };
 
 export const STATUS: Record<
@@ -111,6 +133,15 @@ import riverOfLife from "@/data/projects/river-of-life.json";
 import mrcbBukitJalilDc from "@/data/projects/mrcb-bukit-jalil-dc.json";
 import bandarMalaysia from "@/data/projects/bandar-malaysia.json";
 import klLocalPlan2040 from "@/data/projects/kl-local-plan-2040.json";
+import kaparPowerStation from "@/data/projects/kapar-power-station.json";
+import connaughtBridgePowerStation from "@/data/projects/connaught-bridge-power-station.json";
+import tnbSepangSolar from "@/data/projects/tnb-sepang-solar.json";
+import westports2Expansion from "@/data/projects/westports-2-expansion.json";
+import northportRedevelopment from "@/data/projects/northport-redevelopment.json";
+import subangAirportRegeneration from "@/data/projects/subang-airport-regeneration.json";
+import universitiMalaya from "@/data/projects/universiti-malaya.json";
+import universitiPutraMalaysia from "@/data/projects/universiti-putra-malaysia.json";
+import xiamenUniversityMalaysia from "@/data/projects/xiamen-university-malaysia.json";
 
 export const projects: Project[] = [
   googleElmina,
@@ -128,6 +159,15 @@ export const projects: Project[] = [
   mrcbBukitJalilDc,
   bandarMalaysia,
   klLocalPlan2040,
+  kaparPowerStation,
+  connaughtBridgePowerStation,
+  tnbSepangSolar,
+  westports2Expansion,
+  northportRedevelopment,
+  subangAirportRegeneration,
+  universitiMalaya,
+  universitiPutraMalaysia,
+  xiamenUniversityMalaysia,
 ] as Project[];
 
 export function getProject(slug: string): Project | undefined {

@@ -1,0 +1,49 @@
+{
+  "slug": "universiti-malaya",
+  "name": "Universiti Malaya",
+  "category": "education",
+  "area": "Lembah Pantai, Kuala Lumpur",
+  "status": "operational",
+  "status_detail": "Operational · Malaysia's first university, on its original Lembah Pantai campus",
+  "coordinates": {
+    "lat": 3.12083,
+    "lng": 101.65639,
+    "precision": "site"
+  },
+  "summary": "Malaysia's oldest university, established in 1905, sitting on its main campus in Lembah Pantai just off the Federal Highway. It counted 36,444 students in September 2024, one of the largest student populations in the Klang Valley.",
+  "scale": [
+    {
+      "label": "Students",
+      "value": "36,444 (September 2024), of whom 19,134 undergraduates and 17,310 postgraduates"
+    },
+    {
+      "label": "Established",
+      "value": "28 September 1905 (roots in King Edward VII College of Medicine and Raffles College)"
+    },
+    {
+      "label": "Type",
+      "value": "Public research university"
+    }
+  ],
+  "why_it_matters": "The anchor of Kuala Lumpur's education belt in Lembah Pantai. Universiti Malaya is the city's biggest single concentration of students and research talent, feeding graduates into the Klang Valley workforce and anchoring the University of Malaya Medical Centre precinct.",
+  "questions_to_follow": [
+    "How does campus expansion proceed under the KL Local Plan 2040?",
+    "Does student housing pressure push new developments around Pantai Dalam and PJ South?"
+  ],
+  "location_precision": "Universiti Malaya main campus, 50603 Kuala Lumpur. Coordinates from the university's Wikipedia page.",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "University of Malaya",
+      "url": "https://en.wikipedia.org/wiki/University_of_Malaya",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "1905-09-28",
+      "event": "Establishment date traced to the founding of its predecessor institutions; the university now operates from the Lembah Pantai campus in Kuala Lumpur."
+    }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

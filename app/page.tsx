@@ -1,5 +1,13 @@
 import MapExplorer from "@/components/MapExplorer";
 import { projects } from "@/lib/projects";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  url: SITE_URL,
+};
 
 export default function Home() {
   const pinned = projects.filter((p) => p.coordinates !== null).length;
@@ -7,6 +15,10 @@ export default function Home() {
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
       <header className="mb-6">
         <div className="flex items-baseline justify-between flex-wrap gap-2">
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">

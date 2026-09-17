@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { CATEGORIES, STATUS, getProject, projects } from "@/lib/projects";
+import { SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
   return projects.map((p) => ({ slug: p.slug }));
@@ -31,8 +32,57 @@ export default async function ProjectPage({
 
   const cat = CATEGORIES[project.category];
 
+  const pageUrl = `${SITE_URL}/project/${project.slug}`;
+  const projectJsonLd =
+    project.coordinates !== null
+      ? {
+          "@context": "https://schema.org",
+          "@type": "Place",
+          name: project.name,
+          description: project.summary,
+          url: pageUrl,
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: project.coordinates.lat,
+            longitude: project.coordinates.lng,
+          },
+        }
+      : {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: project.name,
+          description: project.summary,
+          url: pageUrl,
+        };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: project.name,
+        item: pageUrl,
+      },
+    ],
+  };
+
   return (
     <main className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <a
         href="/"
         className="text-sm text-slate-500 hover:text-slate-800"

@@ -93,6 +93,7 @@ export default function MapExplorer({ projects }: Props) {
           category: p.category,
           status: p.status,
           area: p.area,
+          summary: p.summary,
         },
       })),
     };
@@ -181,7 +182,8 @@ export default function MapExplorer({ projects }: Props) {
     map.easeTo({ pitch: pitch3d ? 55 : 0, duration: 600 });
   }, [pitch3d]);
 
-  // Show only search-matching markers (combined with category visibility)
+  // Show only search-matching markers (combined with category visibility).
+  // GeoJSON features carry name, area and summary properties.
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;

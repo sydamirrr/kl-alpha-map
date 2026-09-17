@@ -1,0 +1,44 @@
+{
+  "slug": "lrt-sri-petaling-extension",
+  "name": "LRT Sri Petaling Line extension to Putra Heights",
+  "category": "rail",
+  "area": "Kuala Lumpur – Puchong – Putra Heights, Selangor",
+  "status": "operational",
+  "status_detail": "Operational · opened 30 June 2016; full direct service from 17 July 2016",
+  "coordinates": { "lat": 2.995, "lng": 101.610, "precision": "corridor" },
+  "summary": "A 17.7 km elevated extension of the LRT Sri Petaling Line from Sri Petaling station to Putra Heights, adding 11 new stations through Puchong and southern Kuala Lumpur. The extension was part of the RM10 billion LRT Extension Project (LEP) and created an interchange at Putra Heights with the Kelana Jaya Line.",
+  "scale": [
+    { "label": "Length", "value": "17.7 km" },
+    { "label": "Stations", "value": "11 new stations" },
+    { "label": "Total line", "value": "37 km (Sentul Timur to Putra Heights), 29 stations" }
+  ],
+  "why_it_matters": "The extension brought the first LRT Sri Petaling Line service into Selangor, connecting Puchong's dense suburban population to central KL. The interchange at Putra Heights with the Kelana Jaya Line created the first cross-line transfer point south of the city, reshaping commuting patterns for Greater KL's southern corridor.",
+  "questions_to_follow": [
+    "Is a further extension of the line beyond Putra Heights or Ampang planned?",
+    "Has the extension achieved its ridership targets?"
+  ],
+  "location_precision": "Corridor from Sri Petaling (KL) through Puchong to Putra Heights (Subang Jaya, Selangor). Coordinates placed mid-corridor near Puchong for map visibility.",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "Sri Petaling line extension",
+      "url": "https://en.wikipedia.org/wiki/Sri_Petaling_line_extension",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Astro Awani / Bernama",
+      "title": "LRT users now enjoy direct Sentul Timur–Putra Heights journey",
+      "url": "https://international.astroawani.com/business-news/lrt-users-now-enjoy-direct-sentul-timurputra-heights-journey-111275",
+      "published": "2016-07-17",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2006", "event": "Government proposes extensions of the Kelana Jaya and Sri Petaling lines converging at Putra Heights." },
+    { "date": "2010", "event": "Prasarana awards RM1.7 billion Phase 1 contracts for the LRT Extension Project." },
+    { "date": "2016-03-31", "event": "Partial opening: shuttle service begins from Sri Petaling to Bandar Puteri." },
+    { "date": "2016-06-30", "event": "Extension opens fully to Putra Heights with shuttle service." },
+    { "date": "2016-07-17", "event": "Direct through-service from Sentul Timur to Putra Heights begins; line officially named Sri Petaling Line." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

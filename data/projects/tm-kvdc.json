@@ -1,0 +1,48 @@
+{
+  "slug": "tm-kvdc",
+  "name": "TM One Klang Valley Core Data Centre (KVDC)",
+  "category": "datacentre",
+  "area": "Cyberjaya, Selangor",
+  "status": "operational",
+  "status_detail": "Operational · opened April 2019; Uptime Institute Tier III certified",
+  "coordinates": { "lat": 2.922, "lng": 101.660, "precision": "area" },
+  "summary": "TM One's carrier-neutral, green data centre in Cyberjaya, part of the Twin Core Data Centre strategy with the Iskandar Puteri Core Data Centre (IPDC) in Johor. KVDC is an Uptime Institute Tier III certified facility with LEED Silver and GBI DA certifications, offering 21,740 sqm of space with 25 MW of power capacity.",
+  "scale": [
+    { "label": "Floor area", "value": "21,740 sqm (approx. 90,000 sq ft)" },
+    { "label": "Power capacity", "value": "25 MW" },
+    { "label": "Certifications", "value": "Uptime Institute Tier III, LEED Silver, GBI DA, ISO 27001, PCI-DSS" }
+  ],
+  "why_it_matters": "Malaysia's national telco operating a Tier III certified data centre in Cyberjaya provides a sovereign-grade hosting option alongside the wave of hyperscaler entrants. Its carrier-neutral positioning makes it a key interconnection hub for enterprise and government workloads.",
+  "questions_to_follow": [
+    "Is KVDC 2 expansion underway to meet growing demand?",
+    "How does TM compete with hyperscale entrants (Equinix, Vantage, Bridge) on the same Cyberjaya corridor?"
+  ],
+  "location_precision": "Cyberjaya technology hub, Selangor. Coordinates are area-level based on Cyberjaya data centre cluster; exact building address not pinpointed.",
+  "sources": [
+    {
+      "publisher": "Telekom Malaysia (press release)",
+      "title": "TM One unveils its latest state-of-the-art Klang Valley Core Data Centre",
+      "url": "https://tm.com.my/news/tm-one-unveils-its-latest-state-of-the-art-klang-valley-core-data-centre",
+      "published": "2019-04-29",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "IEN Consultants (project page)",
+      "title": "TM ONE Klang Valley Core Data Centre (KVDC)",
+      "url": "https://www.ien.com.my/projects/tm-one-klang-valley-core-data-centre-%28kvdc%29",
+      "published": "2019",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "datacenters.com",
+      "title": "Telekom Malaysia: Klang Valley Core Data Centre (KVDC)",
+      "url": "https://www.datacenters.com/telekom-malaysia-klang-valley-core-data-centre-kvdc",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2017-11", "event": "TM One launches Iskandar Puteri Core Data Centre (IPDC) in Johor as the first of the Twin Core strategy." },
+    { "date": "2019-04-29", "event": "KVDC officially unveiled in Cyberjaya, completing the Twin Core Data Centre." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

@@ -142,11 +142,23 @@ import subangAirportRegeneration from "@/data/projects/subang-airport-regenerati
 import universitiMalaya from "@/data/projects/universiti-malaya.json";
 import universitiPutraMalaysia from "@/data/projects/universiti-putra-malaysia.json";
 import xiamenUniversityMalaysia from "@/data/projects/xiamen-university-malaysia.json";
+import tmKvdc from "@/data/projects/tm-kvdc.json";
+import bridgeDcMy02Cyberjaya from "@/data/projects/bridge-dc-my02-cyberjaya.json";
+import equinixKl1Kl2 from "@/data/projects/equinix-kl1-kl2.json";
+import vantageKul1Cyberjaya from "@/data/projects/vantage-kul1-cyberjaya.json";
+import lrtSriPetalingExtension from "@/data/projects/lrt-sri-petaling-extension.json";
+import lrtKelanaJayaExtension from "@/data/projects/lrt-kelana-jaya-extension.json";
 
 export const projects: Project[] = [
   googleElmina,
   microsoftMalaysia,
+  tmKvdc,
+  bridgeDcMy02Cyberjaya,
+  equinixKl1Kl2,
+  vantageKul1Cyberjaya,
   lrt3,
+  lrtSriPetalingExtension,
+  lrtKelanaJayaExtension,
   mrt3,
   ecrl,
   merdeka118,

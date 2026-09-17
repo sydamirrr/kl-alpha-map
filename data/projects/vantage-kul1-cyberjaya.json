@@ -1,0 +1,42 @@
+{
+  "slug": "vantage-kul1-cyberjaya",
+  "name": "Vantage Data Centres KUL1 campus, Cyberjaya",
+  "category": "datacentre",
+  "area": "Cyberjaya, Selangor",
+  "status": "operational",
+  "status_detail": "Operational · four buildings (KUL11–KUL14) fully operational; KUL14 launched December 2025",
+  "coordinates": { "lat": 2.929, "lng": 101.652, "precision": "area" },
+  "summary": "Vantage Data Centers' first Malaysian campus (KUL1) in Cyberjaya comprises four multi-storey data centre buildings delivering 31 MW of critical IT load across a 6-acre (2-hectare) site. The campus is carrier-neutral with Uptime Institute Tier III certifications and hosts Equinix KL1 as a tenant. The fourth building KUL14 (16 MW) was completed in December 2025, fully leased to a single customer. A second 52-acre campus (KUL2) offering 400+ MW is under development nearby.",
+  "scale": [
+    { "label": "Campus capacity", "value": "31 MW critical IT load, 463,000 sq ft" },
+    { "label": "Buildings", "value": "4 data centres (KUL11, KUL12, KUL13, KUL14)" },
+    { "label": "Second campus", "value": "KUL2 (Cyberjaya II), 52 acres, 400+ MW planned" }
+  ],
+  "why_it_matters": "Vantage's fully operational KUL1 campus is one of the anchor hyperscale facilities in Cyberjaya, hosting major tenants including Equinix. The rapid follow-on with a 52-acre KUL2 campus signals that Cyberjaya is becoming Southeast Asia's densest data-centre corridor outside Singapore.",
+  "questions_to_follow": [
+    "What is the timeline for KUL2 (Cyberjaya II) phases to come online?",
+    "How will TNB power supply scale to meet 400+ MW of additional demand?"
+  ],
+  "location_precision": "Jalan Cyber Point 4, Cyber 8, Cyberjaya. Coordinates are area-level for the Cyber 8 precinct where KUL1 buildings are clustered.",
+  "sources": [
+    {
+      "publisher": "Vantage Data Centers (press release)",
+      "title": "Vantage Data Centers Launches Fully Leased 16MW Facility in Kuala Lumpur",
+      "url": "https://vantage-dc.com/news/vantage-data-centers-launches-fully-leased-16mw-facility-in-kuala-lumpur/",
+      "published": "2025-12-03",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Vantage Data Centers (campus page)",
+      "title": "Cyberjaya I, Malaysia Data Center Campus",
+      "url": "https://vantage-dc.com/data-center-locations/apac/cyberjaya-i-malaysia/",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    { "date": "2020", "event": "Vantage enters Malaysia with KUL11, its first data centre at the Cyberjaya campus." },
+    { "date": "2022", "event": "KUL12 launches as the second building on the KUL1 campus." },
+    { "date": "2025-12", "event": "KUL14 (16 MW) opens, fully leased; completes the four-building KUL1 campus." }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import maplibregl from "maplibre-gl";
+import maplibregl, { type FilterSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
   CATEGORIES,
@@ -36,6 +36,8 @@ export default function MapExplorer({ projects }: Props) {
   const [pitch3d, setPitch3d] = useState(false);
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [mapFailed, setMapFailed] = useState(false);
+  const [query, setQuery] = useState("");
+  const normalizedQuery = query.trim().toLowerCase();
 
   const pinned = useMemo(
     () => projects.filter((p) => p.coordinates !== null),
@@ -48,9 +50,13 @@ export default function MapExplorer({ projects }: Props) {
       projects.filter(
         (p) =>
           visibleCats.has(p.category) &&
-          (statusFilter === "all" || p.status === statusFilter)
+          (statusFilter === "all" || p.status === statusFilter) &&
+          (normalizedQuery === "" ||
+            p.name.toLowerCase().includes(normalizedQuery) ||
+            p.area.toLowerCase().includes(normalizedQuery) ||
+            p.summary.toLowerCase().includes(normalizedQuery))
       ),
-    [projects, visibleCats, statusFilter]
+    [projects, visibleCats, statusFilter, normalizedQuery]
   );
 
   // Initialize the map once
@@ -87,6 +93,7 @@ export default function MapExplorer({ projects }: Props) {
           category: p.category,
           status: p.status,
           area: p.area,
+          summary: p.summary,
         },
       })),
     };
@@ -174,6 +181,29 @@ export default function MapExplorer({ projects }: Props) {
     if (!map) return;
     map.easeTo({ pitch: pitch3d ? 55 : 0, duration: 600 });
   }, [pitch3d]);
+
+  // Show only search-matching markers (combined with category visibility).
+  // GeoJSON features carry name, area and summary properties.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    const apply = () => {
+      const queryFilter: FilterSpecification | null =
+        normalizedQuery === ""
+          ? null
+          : [
+              "any",
+              ["in", ["literal", normalizedQuery], ["downcase", ["get", "name"]]],
+              ["in", ["literal", normalizedQuery], ["downcase", ["get", "area"]]],
+              ["in", ["literal", normalizedQuery], ["downcase", ["get", "summary"]]],
+            ];
+      for (const key of Object.keys(CATEGORIES) as CategoryKey[]) {
+        map.setFilter(`layer-${key}`, ["all", ["==", ["get", "category"], key], ...(queryFilter ? [queryFilter] : [])]);
+      }
+    };
+    if (map.isStyleLoaded()) apply();
+    else map.once("load", apply);
+  }, [normalizedQuery]);
 
   const flyTo = (p: Project) => {
     setSelectedSlug(p.slug);
@@ -278,6 +308,30 @@ export default function MapExplorer({ projects }: Props) {
           <div className="text-xs text-slate-500 mb-3">
             {listed.length} place{listed.length === 1 ? "" : "s"} match
             {unpinnedCount > 0 && ` + ${unpinnedCount} unpinned record${unpinnedCount === 1 ? "" : "s"}`}
+          </div>
+          <div className="relative mb-3">
+            <label htmlFor="project-search" className="sr-only">
+              Search projects
+            </label>
+            <input
+              id="project-search"
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search projects..."
+              aria-label="Search projects by name, area, or summary"
+              className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 pr-9 text-sm placeholder:text-slate-400 focus:border-slate-400 focus:outline-none"
+            />
+            {query !== "" && (
+              <button
+                onClick={() => setQuery("")}
+                aria-label="Clear search"
+                title="Clear search"
+                className="absolute right-2 top-1/2 -translate-y-1/2 flex h-5 w-5 items-center justify-center rounded-full text-slate-400 hover:bg-slate-100 hover:text-slate-600"
+              >
+                ×
+              </button>
+            )}
           </div>
           <div className="flex flex-col gap-2 max-h-[420px] overflow-y-auto pr-1">
             {listed.map((p) => (

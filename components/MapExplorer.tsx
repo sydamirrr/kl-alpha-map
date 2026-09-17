@@ -37,6 +37,9 @@ export default function MapExplorer({ projects }: Props) {
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [mapFailed, setMapFailed] = useState(false);
   const [query, setQuery] = useState("");
+  const [hazeOn, setHazeOn] = useState(false);
+  const [hazeError, setHazeError] = useState(false);
+  const hazeFetched = useRef(false);
   const normalizedQuery = query.trim().toLowerCase();
 
   const pinned = useMemo(
@@ -205,6 +208,116 @@ export default function MapExplorer({ projects }: Props) {
     else map.once("load", apply);
   }, [normalizedQuery]);
 
+  // ── Air quality (haze) layer ─────────────────────────────────────────────
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    const apply = () => {
+      if (hazeOn) {
+        // Fetch once; layer stays until toggled off
+        if (!hazeFetched.current) {
+          hazeFetched.current = true;
+          fetch("/api/haze")
+            .then((r) => {
+              if (!r.ok) throw new Error(`HTTP ${r.status}`);
+              return r.json();
+            })
+            .then(
+              (data: {
+                stations: Array<{
+                  station: string;
+                  lat: number;
+                  lng: number;
+                  aqi: number | null;
+                  pm25: number | null;
+                  category: string;
+                  color: string;
+                }>;
+              }) => {
+                if (!mapRef.current) return;
+                const m = mapRef.current;
+                const fc = {
+                  type: "FeatureCollection" as const,
+                  features: data.stations.map((s) => ({
+                    type: "Feature" as const,
+                    geometry: {
+                      type: "Point" as const,
+                      coordinates: [s.lng, s.lat],
+                    },
+                    properties: {
+                      station: s.station,
+                      aqi: s.aqi,
+                      pm25: s.pm25,
+                      category: s.category,
+                      color: s.color,
+                    },
+                  })),
+                };
+                if (m.getSource("haze")) {
+                  (m.getSource("haze") as maplibregl.GeoJSONSource).setData(
+                    fc as GeoJSON.FeatureCollection,
+                  );
+                } else {
+                  m.addSource("haze", { type: "geojson", data: fc as GeoJSON.FeatureCollection });
+                  m.addLayer({
+                    id: "layer-haze",
+                    type: "circle",
+                    source: "haze",
+                    paint: {
+                      "circle-color": ["get", "color"],
+                      "circle-radius": 10,
+                      "circle-opacity": 0.85,
+                      "circle-stroke-color": "#ffffff",
+                      "circle-stroke-width": 1.5,
+                    },
+                  });
+                  m.on("click", "layer-haze", (e) => {
+                    const f = e.features?.[0];
+                    if (!f) return;
+                    const p = f.properties as {
+                      station: string;
+                      aqi: string;
+                      pm25: string;
+                      category: string;
+                    };
+                    new maplibregl.Popup({ offset: 12 })
+                      .setLngLat(e.lngLat)
+                      .setHTML(
+                        `<div style="font-family:inherit;min-width:180px">
+                           <div style="font-weight:600;margin-bottom:2px">${p.station}</div>
+                           <div style="font-size:12px;color:#475569">US AQI: ${p.aqi ?? "–"}</div>
+                           <div style="font-size:12px;color:#475569">PM2.5: ${p.pm25 ?? "–"} μg/m³</div>
+                           <div style="font-size:12px;margin-top:4px;font-weight:500">${p.category}</div>
+                           <div style="font-size:11px;color:#94a3b8;margin-top:4px">Open-Meteo CAMS · not official DOE</div>
+                         </div>`,
+                      )
+                      .addTo(m);
+                  });
+                }
+                m.setLayoutProperty("layer-haze", "visibility", "visible");
+              },
+            )
+            .catch(() => {
+              setHazeError(true);
+              hazeFetched.current = false;
+            });
+        } else {
+          // Data already fetched – just show
+          if (map.getLayer("layer-haze"))
+            map.setLayoutProperty("layer-haze", "visibility", "visible");
+        }
+      } else {
+        // Toggle off
+        if (map.getLayer("layer-haze"))
+          map.setLayoutProperty("layer-haze", "visibility", "none");
+      }
+    };
+
+    if (map.isStyleLoaded()) apply();
+    else map.once("load", apply);
+  }, [hazeOn]);
+
   const flyTo = (p: Project) => {
     setSelectedSlug(p.slug);
     if (!p.coordinates) return;
@@ -300,6 +413,42 @@ export default function MapExplorer({ projects }: Props) {
           </div>
         </div>
 
+        {/* Live layers */}
+        <div className="rounded-xl border border-slate-200 bg-white p-4">
+          <div className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">
+            Live layers
+          </div>
+          <button
+            onClick={() => { setHazeOn((v) => !v); setHazeError(false); }}
+            className={`flex items-center justify-between w-full rounded-lg border px-3 py-2 text-left text-sm transition ${
+              hazeOn
+                ? "border-slate-300 bg-slate-50"
+                : "border-slate-200 bg-white opacity-60"
+            }`}
+          >
+            <span className="flex items-center gap-2">
+              <span className="inline-block h-3 w-3 rounded-full bg-gradient-to-br from-green-400 to-red-500" />
+              Air quality (Open-Meteo)
+            </span>
+            <span className="text-xs text-slate-500">{hazeOn ? "on" : "off"}</span>
+          </button>
+          {hazeError && (
+            <div className="mt-2 text-xs text-red-500">
+              Air quality data unavailable – map still works.
+            </div>
+          )}
+          {hazeOn && !hazeError && (
+            <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[11px] text-slate-500">
+              <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full" style={{backgroundColor:"#22c55e"}} />Good</span>
+              <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full" style={{backgroundColor:"#eab308"}} />Moderate</span>
+              <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full" style={{backgroundColor:"#f97316"}} />Unhealthy (SG)</span>
+              <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full" style={{backgroundColor:"#ef4444"}} />Unhealthy</span>
+              <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full" style={{backgroundColor:"#a855f7"}} />Very Unhealthy</span>
+              <span className="flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full" style={{backgroundColor:"#7f1d1d"}} />Hazardous</span>
+            </div>
+          )}
+        </div>
+
         {/* Project list */}
         <div className="rounded-xl border border-slate-200 bg-white p-4">
           <div className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-1">
@@ -381,7 +530,8 @@ export default function MapExplorer({ projects }: Props) {
           <div className="font-semibold text-slate-600 mb-2">About</div>
           Source-backed locations, plans and works in progress around Kuala
           Lumpur and Selangor. Every project page lists its evidence. Basemap:
-          OpenFreeMap · OpenMapTiles · OpenStreetMap contributors.
+          OpenFreeMap · OpenMapTiles · OpenStreetMap contributors. Air quality:
+          Open-Meteo CAMS (not official DOE/APIMS readings).
         </div>
       </div>
     </div>

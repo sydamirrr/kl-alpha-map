@@ -1,7 +1,5 @@
 import type { MetadataRoute } from "next";
-
-// Update this when the custom domain is bought (see issue #14).
-const BASE = "https://kl-alpha-map.vercel.app";
+import { SITE_URL } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -15,6 +13,6 @@ export default function robots(): MetadataRoute.Robots {
         (ua) => ({ userAgent: ua, allow: "/" })
       ),
     ],
-    sitemap: `${BASE}/sitemap.xml`,
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

@@ -1,0 +1,63 @@
+{
+  "slug": "universiti-putra-malaysia",
+  "name": "Universiti Putra Malaysia (UPM)",
+  "category": "education",
+  "area": "Serdang, Selangor",
+  "status": "operational",
+  "status_detail": "Operational · main campus at Serdang since 1971",
+  "coordinates": {
+    "lat": 2.99917,
+    "lng": 101.70778,
+    "precision": "site"
+  },
+  "summary": "Public research university at Serdang on the south-eastern edge of the Klang Valley, tracing its roots to a 1931 School of Agriculture and formally established as Universiti Pertanian Malaysia in 1971. It counted 30,720 students in December 2024.",
+  "scale": [
+    {
+      "label": "Students",
+      "value": "30,720 (December 2024), of whom 18,602 undergraduates"
+    },
+    {
+      "label": "Main campus",
+      "value": "Serdang, about 1,108 hectares"
+    },
+    {
+      "label": "Established",
+      "value": "29 October 1971; renamed Universiti Putra Malaysia in 1997"
+    }
+  ],
+  "why_it_matters": "One of the largest single landholders in the south-eastern Klang Valley. UPM's 1,100-hectare Serdang campus anchors an education and research cluster that pulls population and industry toward Serdang, Bangi and the corridor toward Putrajaya.",
+  "questions_to_follow": [
+    "How much of the Serdang landbank gets urbanised as the campus edges build out?",
+    "Does UPM's agri-food and biotech research base attract spin-off industry nearby?"
+  ],
+  "location_precision": "UPM main campus, Serdang. Coordinates from the university's Wikipedia page.",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "Universiti Putra Malaysia",
+      "url": "https://en.wikipedia.org/wiki/University_of_Putra_Malaysia",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Universiti Putra Malaysia",
+      "title": "Facts & Figures",
+      "url": "https://www.upm.edu.my/content/facts_figures-8325",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "1931",
+      "event": "Roots as a School of Agriculture."
+    },
+    {
+      "date": "1971-10-29",
+      "event": "Established as Universiti Pertanian Malaysia."
+    },
+    {
+      "date": "1997",
+      "event": "Renamed Universiti Putra Malaysia."
+    }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

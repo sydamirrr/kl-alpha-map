@@ -1,0 +1,59 @@
+{
+  "slug": "connaught-bridge-power-station",
+  "name": "Connaught Bridge Power Station",
+  "category": "energy",
+  "area": "Kampong Jawa, Klang, Selangor",
+  "status": "operational",
+  "status_detail": "Operational · redeveloped combined-cycle plant commissioned February 2016",
+  "coordinates": {
+    "lat": 3.0433,
+    "lng": 101.4696,
+    "precision": "site"
+  },
+  "summary": "One of Malaysia's oldest power stations, opened in 1953 near Kampong Jawa in Klang and redeveloped by TNB into a 375 MW combined-cycle plant completed in 2016.",
+  "scale": [
+    {
+      "label": "Current capacity",
+      "value": "375 MW combined cycle (1 gas turbine + 1 steam turbine)"
+    },
+    {
+      "label": "Pre-redevelopment capacity",
+      "value": "895 MW (315 MW combined cycle + 4 x 130 MW open cycle)"
+    }
+  ],
+  "why_it_matters": "A 1953-era station that shows how the Klang Valley's legacy thermal fleet is being recycled site-by-site instead of expanded on greenfield land. Its gas-fired output sits close to the Klang industrial belt and the grid corridor feeding Selangor's data centre load.",
+  "questions_to_follow": [
+    "Will TNB pursue a further combined-cycle replacement at Connaught Bridge as units age out?",
+    "How much longer do the remaining pre-2016 assets stay on the system?"
+  ],
+  "location_precision": "Station site at Kampong Jawa, Klang. Coordinates from Global Energy Monitor (listed as exact).",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "Connaught Bridge Power Station",
+      "url": "https://en.wikipedia.org/wiki/Connaught_Bridge_Power_Station",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Global Energy Monitor",
+      "title": "Connaught Bridge power station",
+      "url": "https://www.gem.wiki/Connaught_Bridge_power_station",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "1953-03-26",
+      "event": "Opened by High Commissioner Sir Gerald Templer; one of the country's oldest power stations."
+    },
+    {
+      "date": "2016-02",
+      "event": "Redeveloped combined-cycle plant commissioned, cutting installed capacity from 895 MW to 375 MW."
+    },
+    {
+      "date": "2018-12",
+      "event": "Original Block 1 fully decommissioned."
+    }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

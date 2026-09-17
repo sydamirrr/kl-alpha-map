@@ -1,0 +1,64 @@
+{
+  "slug": "northport-redevelopment",
+  "name": "Northport 'Reinventing Northport' redevelopment",
+  "category": "ports",
+  "area": "Northport, Port Klang, Selangor",
+  "status": "operational",
+  "status_detail": "Operational · Block K container yard completed October 2024; wider transformation programme ongoing",
+  "coordinates": {
+    "lat": 2.98,
+    "lng": 101.38,
+    "precision": "area"
+  },
+  "summary": "MMC's ongoing modernisation of Northport, the older half of Port Klang. Its latest milestone, the Block K container yard finished 51 days ahead of schedule in October 2024, lifted yard capacity to about 6.15 million TEU a year and brought electrified RTG cranes into service.",
+  "scale": [
+    {
+      "label": "Block K yard",
+      "value": "2,016 total ground slots; +662,256 TEU a year (5-day dwell)"
+    },
+    {
+      "label": "Yard capacity after Block K",
+      "value": "6,150,250 TEU per annum"
+    },
+    {
+      "label": "Equipment",
+      "value": "12 electrified RTG cranes procured for Block K"
+    }
+  ],
+  "why_it_matters": "Westports gets the headlines, but Northport's steady block-by-block rebuild decides whether Port Klang as a whole can absorb new volume. It is the quieter half of the port-capacity story behind the Selangor logistics corridor.",
+  "questions_to_follow": [
+    "What comes after Block K and Block J in the Reinventing Northport plan?",
+    "Does Northport's berth capacity keep pace with its yard expansion as container ships get bigger?"
+  ],
+  "location_precision": "Northport terminals, Port Klang. Coordinates are port-area level from the port's UN/LOCODE listing (MYLPK).",
+  "sources": [
+    {
+      "publisher": "MMC Port (Northport)",
+      "title": "Northport's capacity and efficiency set to improve with new container yard",
+      "url": "https://www.mmcports.com.my/northports-capacity-and-efficiency-set-to-improve-with-new-container-yard/",
+      "published": "2024-10-07",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "MagicPort",
+      "title": "NORTHPORT/PT KLANG PORT, MYLPK",
+      "url": "https://magicport.ai/ports/malaysia/northport-pt-klang-port-mylpk",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "2016-01",
+      "event": "MMC Corporation takes over Northport and launches the Reinventing Northport transformation plan."
+    },
+    {
+      "date": "2023-05-27",
+      "event": "Block J container yard completed, adding 529,980 TEU to annual yard capacity."
+    },
+    {
+      "date": "2024-10-07",
+      "event": "Block K completed 51 days ahead of schedule; total yard capacity reaches 6,150,250 TEU per annum."
+    }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "tnb-sepang-solar",
+  "name": "TNB Sepang large-scale solar farm (LSS1)",
+  "category": "energy",
+  "area": "Mukim Tanjung 12, Kuala Langat (Sepang), Selangor",
+  "status": "operational",
+  "status_detail": "Operational · first power to grid October 2018; operating since November 2018",
+  "coordinates": null,
+  "summary": "Tenaga Nasional's first large-scale solar (LSS1) plant, a 50 MWac (78 MWdc) farm on 98 hectares in Kuala Langat that was Malaysia's largest solar project when completed, built by subsidiary TNB Sepang Solar.",
+  "scale": [
+    {
+      "label": "Capacity",
+      "value": "50 MWac / 78 MWdc"
+    },
+    {
+      "label": "Site",
+      "value": "98 hectares, about 230,000 solar panels"
+    },
+    {
+      "label": "Grid link",
+      "value": "10 km of 132 kV underground power and fibre-optic cable"
+    }
+  ],
+  "why_it_matters": "The first utility-scale solar bet inside the Klang Valley's power system, delivered by the national utility itself. It set the template for the LSS auctions that followed and shows Selangor's southern fringe doubling as solar land while data centres drive demand up.",
+  "questions_to_follow": [
+    "Will TNB repower or expand the Sepang site under later LSS or corporate PPA rounds?",
+    "Where do the next Selangor LSS and BESS projects actually get sited as land tightens?"
+  ],
+  "location_precision": "No public coordinates found at the time of review; sources document the site only as Mukim Tanjung 12, Kuala Langat. This record is intentionally unpinned rather than guessed.",
+  "sources": [
+    {
+      "publisher": "The Edge Malaysia",
+      "title": "TNB's LSS4 project in Bukit Selambau achieves RM185 mil financial close (notes the Sepang LSS1 plant: 50MWac, operating since November 2018)",
+      "url": "https://theedgemalaysia.com/node/640116",
+      "published": "2022-10-14",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "PV-Tech",
+      "title": "TNB connects first phase of Malaysia's largest solar project to the grid",
+      "url": "https://www.pv-tech.org/tnb-connects-malaysias-largest-solar-project-to-the-grid/",
+      "published": "2018-10-31",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "2017-07",
+      "event": "Construction started on the LSS1 plant won by TNB Sepang Solar Sdn Bhd."
+    },
+    {
+      "date": "2018-10",
+      "event": "First phase connected to the national grid; full 50 MW capacity reached by end-2018."
+    }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

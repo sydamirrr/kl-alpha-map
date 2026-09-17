@@ -1,0 +1,71 @@
+{
+  "slug": "subang-airport-regeneration",
+  "name": "Subang Airport Regeneration Plan (SARP)",
+  "category": "ports",
+  "area": "Subang, Petaling District, Selangor",
+  "status": "construction",
+  "status_detail": "Construction · Phase One terminal expansion under way; narrowbody jet services resumed June 2024",
+  "coordinates": {
+    "lat": 3.13111,
+    "lng": 101.54806,
+    "precision": "site"
+  },
+  "summary": "The cabinet-approved plan to turn Sultan Abdul Aziz Shah Airport, Kuala Lumpur's main airport until 1998, back into a commercial air hub: expanded terminal, new narrowbody parking bays and the return of Boeing 737 and Airbus A320 jets after 26 years.",
+  "scale": [
+    {
+      "label": "Passenger capacity",
+      "value": "1.5 million to 3 million pax a year in Phase One; up to 8 million by Phase Three"
+    },
+    {
+      "label": "Phase One airside",
+      "value": "Up to 5 narrowbody bays and 6 turboprop bays"
+    },
+    {
+      "label": "Aircraft",
+      "value": "Single-aisle jets (737/A320/Embraer) readmitted from June 2024"
+    }
+  ],
+  "why_it_matters": "The only airport in the Klang Valley that can add capacity inside the already-built-up city. A working city airport plus the surrounding aerospace ecosystem changes the development math for Subang, Shah Alam and Petaling, and it is the second half of Malaysia Airports' Aeropolis strategy alongside KLIA.",
+  "questions_to_follow": [
+    "Which airlines actually commit scheduled jet services to Subang?",
+    "When does Phase One complete, and what triggers the 8-million-passenger Phase Three?"
+  ],
+  "location_precision": "Sultan Abdul Aziz Shah Airport site, Subang. Coordinates from the airport's Wikipedia page.",
+  "sources": [
+    {
+      "publisher": "AeroTime",
+      "title": "Malaysia's Subang Airport set to be redeveloped into a premium city hub",
+      "url": "https://www.aerotime.aero/articles/malaysias-subang-airport-set-to-be-redeveloped-into-a-premium-city-hub",
+      "published": "2023-02-07",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "SoyaCincau",
+      "title": "Subang Airport will see jet services resume from June 2024",
+      "url": "https://soyacincau.com/2024/03/15/subang-airport-will-see-jet-services-resume-from-june-2024/",
+      "published": "2024-03-15",
+      "accessed": "2026-09-17"
+    },
+    {
+      "publisher": "Malaysia Airports (KLIA Aeropolis)",
+      "title": "KLIA Aeropolis - Airport City of the 21st Century (LTSAAS Subang regeneration plan)",
+      "url": "https://www.aeropolis.com.my/",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "2023-02",
+      "event": "Cabinet approves the Subang Airport Regeneration Plan; narrowbody jet operations allowed again."
+    },
+    {
+      "date": "2024-03",
+      "event": "MAHB confirms Phase One expansion works and jet service resumption from June 2024."
+    },
+    {
+      "date": "2024-06",
+      "event": "Single-aisle jet services resume at Subang after 26 years."
+    }
+  ],
+  "edition_reviewed": "2026-09-17"
+}

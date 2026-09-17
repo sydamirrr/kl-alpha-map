@@ -1,0 +1,57 @@
+{
+  "slug": "xiamen-university-malaysia",
+  "name": "Xiamen University Malaysia (XMUM)",
+  "category": "education",
+  "area": "Sunsuria City, Sepang, Selangor",
+  "status": "operational",
+  "status_detail": "Operational · opened in 2016 in Sunsuria City, Sepang",
+  "coordinates": {
+    "lat": 2.8329,
+    "lng": 101.7029,
+    "precision": "site"
+  },
+  "summary": "A branch campus of China's Xiamen University, a Project 985 and 211 university, opened in 2016 on a 150-acre urban campus at Sunsuria City near KLIA. It is accredited by both the Malaysian and Chinese governments.",
+  "scale": [
+    {
+      "label": "Campus",
+      "value": "150 acres, urban"
+    },
+    {
+      "label": "Established",
+      "value": "2016"
+    },
+    {
+      "label": "Accreditation",
+      "value": "Governments of Malaysia and China; Malaysia's Ministry of Higher Education and China's Ministry of Education"
+    }
+  ],
+  "why_it_matters": "A top-tier Chinese university campus inside the KLIA corridor ties the Klang Valley directly into China-Malaysia education and talent flows, and it was the anchor tenant that kick-started the whole Sunsuria City township in Sepang.",
+  "questions_to_follow": [
+    "How does enrolment trend as China-Malaysia education ties deepen?",
+    "Does XMUM's presence pull more Chinese investment into the Sepang/KLIA corridor?"
+  ],
+  "location_precision": "XMUM campus, Sunsuria City, Sepang. Coordinates from the university's Wikipedia page.",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "title": "Xiamen University Malaysia",
+      "url": "https://en.wikipedia.org/wiki/Xiamen_University_Malaysia",
+      "accessed": "2026-09-17"
+    }
+  ],
+  "history": [
+    {
+      "date": "2013-01-21",
+      "event": "Malaysia's Minister of Higher Education officially invites Xiamen University to set up a campus in Malaysia."
+    },
+    {
+      "date": "2015-11-13",
+      "event": "Registration approved by the Ministry of Higher Education of Malaysia."
+    },
+    {
+      "date": "2016",
+      "event": "XMUM officially opens at Sunsuria City, Sepang."
+    }
+  ],
+  "edition_reviewed": "2026-09-17"
+}
